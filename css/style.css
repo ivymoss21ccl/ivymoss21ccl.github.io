@@ -167,7 +167,7 @@ display: inline-block;
       margin-bottom: 25px;
     }
    .menu {
-      width: 100%;
+      width: auto;
       flex: 1 1 auto;
     }
     .menu ul {
@@ -176,13 +176,11 @@ display: inline-block;
       flex-wrap: wrap;
     }
     .menu li {
-      background-color: #D0D0D0;
+      background-color: blueviolet;
     }
     .wrapper {
         flex-direction: column;
         align-items: center
-     .images img {
-         width 204px;
-         height 272px
+     
     }
   }
