@@ -166,19 +166,16 @@ display: inline-block;
       height: auto;
       margin-bottom: 25px;
     }
-    .content-wrapper {
-      flex-direction: column;
-    }
-    .main-menu {
+   .menu {
       width: 100%;
       flex: 1 1 auto;
     }
-    .main-menu ul {
+    .menu ul {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
     }
-    .main-menu li {
+    .menu li {
       background-color: #D0D0D0;
     }
     .wrapper {
