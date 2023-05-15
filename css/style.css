@@ -1,0 +1,188 @@
+html{
+
+    height: auto;
+}
+
+body{
+    background:linear-gradient(to top right,blueviolet,pink);
+    color:cyan;
+    margin: 0;
+    
+}
+
+header {
+    display: flex;
+ }
+
+ 
+  
+.logo{
+    display: block;
+    width: 250px;
+    height: 250px;
+    flex: 0 0 250px;
+
+}
+.images{
+    text-align: right;
+    flex-shrink: 1;
+  }
+
+.wrapper{
+    display: flex;
+  }
+
+
+h1 {
+    height: 250px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0px;
+    font-size: 4em;
+
+  }
+
+  .title{
+        color: aquamarine;
+        text-decoration-line: underline;
+        text-shadow: 0 0 3px cyan;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+
+  }
+  
+
+a{
+    color: pink;
+
+
+
+}
+
+a:visited{
+
+    color:aqua
+}
+
+a:hover{
+
+    color:white;
+    text-shadow: 3px 3px 4px black;
+}
+
+.menu {
+    width: 250px;
+    flex: 0 0 250px;
+  }
+  
+
+.menu a
+{
+    padding: 8px 10px 10px 4px;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0px 0px;
+    margin: 0px;
+    width: 250px;
+    height: 200px;
+    background-color:blueviolet ;
+    border: 1px solid #555;
+    }
+
+.menu li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+     }
+.menu li:last-child{
+    border-bottom: none;
+}
+.menu li a:hover {
+    background-color: indigo;
+}
+
+
+
+       
+
+
+    
+
+
+
+
+main {
+    text-align: left;
+    display: flex;
+    
+      }
+      
+
+article {
+    padding-left: 2px;
+    flex-grow: 1;
+    text-shadow: 3px 3px 4px black;
+}
+      
+footer{
+    background-color: indigo;
+    color:burlywood;
+    display: flex;
+    text-align: center;
+
+}
+.link{
+display: inline-block;
+
+}
+
+
+
+
+
+
+/* Tablet */
+@media(max-width: 1000px) {
+    main {
+      flex-direction: column;
+    }
+    .images {
+      text-align: center;
+    }
+  }
+  
+  /* Mobile */
+  @media(max-width: 670px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      height: auto;
+      margin-bottom: 25px;
+    }
+    .content-wrapper {
+      flex-direction: column;
+    }
+    .main-menu {
+      width: 100%;
+      flex: 1 1 auto;
+    }
+    .main-menu ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .main-menu li {
+      background-color: #D0D0D0;
+    }
+    .wrapper {
+        flex-direction: column;
+        align-items: center
+    }
+  }
