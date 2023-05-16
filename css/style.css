@@ -157,7 +157,7 @@ display: inline-block;
   }
   
   /* Mobile */
-  @media(max-width: 675px) {
+  @media(max-width: 680px) {
     header {
       flex-direction: column;
       align-items: center;
