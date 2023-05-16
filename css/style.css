@@ -181,6 +181,9 @@ display: inline-block;
     .wrapper {
         flex-direction: column;
         align-items: center
+    .main {
+        width: 100%;
+        }
      
     }
   }
