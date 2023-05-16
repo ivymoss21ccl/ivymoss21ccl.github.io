@@ -184,6 +184,10 @@ display: inline-block;
     .main {
         width: 100%;
         }
+      .main img {
+         width 204px;
+         height 272px;
+        }
      
     }
   }
